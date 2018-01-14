@@ -33,13 +33,21 @@ namespace TypedMessageBroker.Examples
 
     public class Message1Hoge : IMessageType1
     {
-        public Message1Hoge(int value) { Value = value; }
+        public Message1Hoge(int value)
+        {
+            Value = value;
+        }
+
         public int Value { get; }
     }
 
     public class Message1Fuga : IMessageType1
     {
-        public Message1Fuga(int value) { Value = value; }
+        public Message1Fuga(int value)
+        {
+            Value = value;
+        }
+
         public int Value { get; }
     }
 
@@ -49,13 +57,21 @@ namespace TypedMessageBroker.Examples
 
     public class Message2Hoge : IMessageType2
     {
-        public Message2Hoge(int value) { Value = value; }
+        public Message2Hoge(int value)
+        {
+            Value = value;
+        }
+
         public int Value { get; }
     }
 
     public class Message2Fuga : IMessageType2
     {
-        public Message2Fuga(int value) { Value = value; }
+        public Message2Fuga(int value)
+        {
+            Value = value;
+        }
+
         public int Value { get; }
     }
 }
